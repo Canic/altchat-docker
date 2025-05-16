@@ -1,0 +1,10 @@
+services:
+  altcha:
+    build: .
+    ports:
+      - "8080:3000"
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./.env:/app/.env

@@ -1,0 +1,4 @@
+Erstelle eine .env-Datei mit den folgenden Werten:
+
+PORT=3000
+ALTCHA_HMAC_KEY=your_custom_hmac_key

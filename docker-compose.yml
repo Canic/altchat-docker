@@ -1,6 +1,6 @@
 services:
   altcha:
-    build: .
+    image: ghcr.io/canic/altchat-docker:main
     ports:
       - "8080:3000"
     restart: unless-stopped
